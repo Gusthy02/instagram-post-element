@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
+
+body {
+  margin: 0px auto;
+  width: 600px;
+  height: 100%;
+  border: 2px solid rgb(221, 221, 221);
+}
+
+/* Cabeçalho */
+header {
+  background-color: rgb(245, 245, 245);
+  height: 60px;
+  text-align: center;
+  display: flex;
+}
+
+header h1 {
+  margin: auto;
+  background-color: rgb(245, 245, 245);
+  font: 500 2.5rem Cookie, cursive;
+}
+
+.postPerfil {
+  border-top: 1px solid rgb(221, 221, 221);
+  display: flex;
+  text-align: center;
+  height: 50px;
+}
+
+.postPerfil h2 {
+  font-weight: 600;
+  font-size: 1.08rem;
+  font-family: sans-serif;
+}
+
+/* Perfil da postagem */
+.postPerfil img {
+  border-radius: 50%;
+  width: 30px;
+  margin: 10px 10px;
+}
+
+/* Imagem da postagem */
+.postImage {
+  display: block;
+}
+
+.postImage img {
+  width: 100%;
+}
+
+/* Footer da postagem */
+.postFooter {
+  display: block;
+}
+
+.postFooter img,
+h3,
+p {
+  display: block;
+  margin: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.postFooter h3 {
+  font-size: 1rem;
+}
+
+.postFooter img {
+  width: 25px;
+}
+
+.postFooter span {
+  font-weight: 700;
+}
